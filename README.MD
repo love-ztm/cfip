@@ -2,17 +2,12 @@
 
 **测试地**: 中国四川联通  
 **更新频率**: 每半小时自动更新  
-**本次更新**: 2026-05-01 12:37:01
+**本次更新**: 2026-05-01 18:10:53
 
 ## 订阅链接
 
-- **高速优选**：`https://raw.githubusercontent.com/HandsomeMJZ/cfip/refs/heads/main/best_ips.txt`
-- **所有可用**：`https://raw.githubusercontent.com/HandsomeMJZ/cfip/refs/heads/main/full_ips.txt`
-
--**区别**:  
-**所有可用**是筛选出来每个地区延迟最低的前十个,不保证速度是最快的,适合二次自己测速.  
-**高速优选**是筛选出来的里面已通过测速的,小白直接选这个.
-
+- 高速优选：`https://raw.githubusercontent.com/HandsomeMJZ/cfip/refs/heads/main/best_ips.txt`
+- 所有可用：`https://raw.githubusercontent.com/HandsomeMJZ/cfip/refs/heads/main/full_ips.txt`
 
 ## 使用方法
 
