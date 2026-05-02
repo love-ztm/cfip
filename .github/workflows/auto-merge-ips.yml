@@ -1,0 +1,26 @@
+name: Auto Merge best_ips + ubest_ips
+on:
+  push:
+    branches: [ main ]  # 只要 main 分支有上传，就自动合并
+    paths:
+      - best_ips.txt    # 电信IP更新
+      - ubest_ips.txt   # 联通IP更新
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 合并 + 去重 + 生成 final_ips.txt
+      - name: Merge and deduplicate IPs
+        run: |
+          cat best_ips.txt ubest_ips.txt | sort -u | grep -v '^$' > final_ips.txt
+
+      # 自动提交合并后的文件
+      - name: Commit & Push
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "✅ Auto merged IPs (best + ubest)"
+          add: "final_ips.txt"
