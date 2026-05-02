@@ -1,14 +1,16 @@
 # Cloudflare 优选 IP
 
-**测试地**: 中国四川联通  
-**更新频率**: 每半小时自动更新  
-**本次更新**: 2026-05-02 12:32:46
+**测试地**: 中国四川  
+**更新频率**: 每2小时自动更新  
+**本次更新**: 2026-05-02 12:55:02
 
 ## 订阅链接
-
+- 电信
 - 高速优选：`https://raw.githubusercontent.com/love-ztm/cfip/refs/heads/main/best_ips.txt`
 - 所有可用：`https://raw.githubusercontent.com/love-ztm/cfip/refs/heads/main/full_ips.txt`
-
+- 电信联通
+- 高速优选：`https://raw.githubusercontent.com/love-ztm/cfip/refs/heads/main/ubest_ips.txt`
+- 所有可用：`https://raw.githubusercontent.com/love-ztm/cfip/refs/heads/main/ufull_ips.txt`
 ## 使用方法
 
 1. 复制订阅链接。
